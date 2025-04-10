@@ -2,7 +2,6 @@ const inputBox = document.getElementById("input");
 const listContainer = document.getElementById("list");
 
 function addTask() {
-    console.log("oten");
     if(inputBox.value === "") {
         alert("You must write something!");
     } else {
